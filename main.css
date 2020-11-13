@@ -41,9 +41,9 @@ html {
   border-radius: 5px;
   padding: 1rem;
   cursor: pointer;
-  -webkit-box-shadow: -6px 9px 40px 0px rgba(222, 242, 249, 1);
+  /* -webkit-box-shadow: -6px 9px 40px 0px rgba(222, 242, 249, 1);
   -moz-box-shadow: -6px 9px 40px 0px rgba(222, 242, 249, 1);
-  box-shadow: -6px 9px 40px 0px rgba(222, 242, 249, 1);
+  box-shadow: -6px 9px 40px 0px rgba(222, 242, 249, 1); */
 }
 
 .crypto-assets .container div {
@@ -63,7 +63,7 @@ html {
   position: absolute;
   top: 0;
   z-index: -1;
-  background-color: var(--blue);
+  background-color: var(--red);
   background-size: cover;
   background-repeat: no-repeat;
 }
