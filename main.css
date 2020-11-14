@@ -19,13 +19,26 @@ html {
   height: 70px;
   display: flex;
   align-items: center;
+  background-color: #565656;
 }
 .crypto-assets {
   height: calc(100vh - 70px);
   /* background-color: var(--blue); */
   position: relative;
 }
+.introduction {
+  color: white;
+}
+.introduction p {
+  /* font-weight: bold; */
+  line-height: 1.5rem;
+  color: white;
+}
 
+/* .introduction .container {
+  width: 80%;
+  width: auto;
+} */
 .crypto-assets .container {
   display: grid;
   place-items: center;
@@ -40,7 +53,11 @@ html {
   /* height: 40rem; */
   border-radius: 5px;
   padding: 1rem;
+  color: #666666;
   cursor: pointer;
+  /* -webkit-box-shadow: 11px 14px 68px -6px rgba(216, 216, 216, 0.58);
+  -moz-box-shadow: 11px 14px 68px -6px rgba(216, 216, 216, 0.58);
+  box-shadow: 11px 14px 68px -6px rgba(216, 216, 216, 0.58); */
   /* -webkit-box-shadow: -6px 9px 40px 0px rgba(222, 242, 249, 1);
   -moz-box-shadow: -6px 9px 40px 0px rgba(222, 242, 249, 1);
   box-shadow: -6px 9px 40px 0px rgba(222, 242, 249, 1); */
@@ -51,19 +68,19 @@ html {
   transition: all 0.5s ease-out;
   /* margin: 1rem; */
 }
-.fund-container:hover {
+/* .fund-container:hover {
   transform: translateY(0.5rem);
-}
+} */
 .crypto-topic {
   text-align: center;
-  color: var(--red);
+  color: #666666;
 }
 
 .particles-js-canvas-el {
   position: absolute;
   top: 0;
   z-index: -1;
-  background-color: var(--red);
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -83,12 +100,18 @@ html {
   outline: none;
   border-radius: 5px;
   padding: 0.5rem 0;
-  background-color: var(--blue);
+  background-color: var(--red);
   outline: none;
+  color: white;
+  transition: all 0.5s ease-out;
 }
 
+.invest:hover {
+  transform: translateY(0.5rem);
+}
 .invest a {
   text-decoration: none;
+  color: white;
 }
 .hor-card {
   display: flex;
