@@ -100,7 +100,7 @@ html {
   outline: none;
   border-radius: 5px;
   padding: 0.5rem 0;
-  background-color: black;
+  background-color: var(--red);
   outline: none;
   color: white;
   transition: all 0.5s ease-out;
