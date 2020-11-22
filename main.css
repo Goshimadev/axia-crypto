@@ -27,12 +27,12 @@ html {
   position: relative;
 }
 .introduction {
-  color: white;
+  color: #4f4f4f;
 }
 .introduction p {
   /* font-weight: bold; */
   line-height: 1.5rem;
-  color: white;
+  color: #4f4f4f;
 }
 
 /* .introduction .container {
@@ -80,7 +80,7 @@ html {
   position: absolute;
   top: 0;
   z-index: -1;
-  background-color: black;
+  background-color: var(--blue);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100% !important;
